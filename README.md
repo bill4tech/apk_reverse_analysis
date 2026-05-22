@@ -26,7 +26,7 @@
 | **APK 发现与校验** | 自动扫描目录，识别 APK/XAPK，文件大小校验，用户确认 |
 | **数据提取** | 基于 androguard 提取包名、版本、权限、四大组件、类数量、Native 库、assets 清单等 20+ 维度 |
 | **框架识别** | 自动判断 React Native / Flutter / Kotlin 原生 / Unity / Cordova / Xamarin |
-| **SDK 第三方服务清单** | 从包名前缀反向识别 Firebase、声网、网易云信、字节特效 SDK、Facebook 等 30+ 常见 SDK |
+| **SDK 第三方服务清单** | 从包名前缀反向识别 Firebase、腾讯、网易云信、字节特效 SDK、Facebook 等 30+ 常见 SDK |
 | **产品形态推理** | 综合 SDK 组合、权限模式、组件结构推断产品类型（社交/工具/游戏/视频等） |
 | **HTML 报告生成** | 自适应单 APK / 多 APK 对比模式，内联 CSS，中文输出 |
 
@@ -118,7 +118,7 @@ apk-reverse-analysis/
 
 ### 第三方 SDK 识别库（内置 30+ 条规则）
 
-覆盖 Firebase、Google Play Services、声网 Agora、网易云信、字节跳动 Effects SDK、AppsFlyer、Adjust、阿里云 OSS、腾讯 MMKV/PAG、Facebook SDK、OkHttp、Retrofit、Glide、Fresco、ExoPlayer 等主流 SDK。
+覆盖 Firebase、Google Play Services、腾讯、网易云信、字节跳动 Effects SDK、AppsFlyer、Adjust、阿里云 OSS、腾讯 MMKV/PAG、Facebook SDK、OkHttp、Retrofit、Glide、Fresco、ExoPlayer 等主流 SDK。
 
 ### 报告结构（自适应）
 
